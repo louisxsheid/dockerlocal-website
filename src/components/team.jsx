@@ -13,7 +13,7 @@ export default class Team extends React.Component {
           <div className="inner-container">
           <div className="grid-item">
             <img className='profile-pic' src={louis} />
-            <h4>Louis Xavier Sheid III</h4>
+            <h4>Louis Sheid</h4>
             <a href='https://github.com/louisxsheid' target="_blank">
               <img src={github} className='github-icon-profile' ></img>
             </a>
