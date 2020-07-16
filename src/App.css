@@ -95,6 +95,10 @@
   max-width: 40em;
 }
 
+.leaveoneout {
+  max-width: 100%;
+}
+
 .info-p {
   display: inline-block;
   background-color: black;

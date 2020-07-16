@@ -4,6 +4,7 @@ import addButton from '../assets/add-repos.png'
 import addRepos from '../assets/add-more-repos.png'
 import success from '../assets/success.png'
 import githubwhite from '../assets/whitegit.png'
+import leaveoneout from '../assets/leaveoneout.png'
 
 export default class Body extends React.Component {
   render() {
@@ -11,7 +12,9 @@ export default class Body extends React.Component {
         <div className='info-wrap'>
           <h1 className='info'>What is DockerLocal?</h1>
           <div className='divider'></div>
-          <h4 className='info-p'>DockerLocal is a lightweight and easy to set up tool that saves time in your development workflow, removing the need for manual cloning and docker-compose setup. Test your containerized services faster and with less hassle.</h4>
+          <h4 className='info-p'>DockerLocal is a lightweight and easy to set up tool that saves time in your development workflow, removing the need for manual cloning and docker-compose setup.
+          Developers can choose the github repositories associated with a project to clone the latest version of each repository. DockerLocal then creates a Docker Compose .yml file with only the microservices you’re not currently working on locally.  
+          Test your containerized services faster and with less hassle.</h4>
           <div className='divider'></div>
           <div className='divider'></div>
           <div className='divider'></div>
@@ -23,8 +26,14 @@ export default class Body extends React.Component {
           <img className='addReposPic' src={makeProj}/>
           <h3 className='info-title'>Choose your repositories</h3>
           <img className='addReposPic' src={addButton}/>
-          <div></div>
+          <div className='divider'></div>
           <img className='addReposPic' src={addRepos}/>
+          <div className='divider'></div>
+          <div className='divider'></div>
+          <h3 className='info'>~Option to leave repos out from the compose file~</h3>
+          <div className='divider'></div>
+          <img className='leaveoneout' src={leaveoneout} />
+          <div className='divider'></div>
           <h3 className='info-title'>Clone and compose!</h3>
           <img className='addReposPic' src={success}/>
           <div className='divider'></div>
