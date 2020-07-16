@@ -1,3 +1,5 @@
 ## Website for DockerLocal
 
-https://github.com/oslabs-beta/dockerlocal
+website       -> http://dockerlocal.io
+
+project repo  -> https://github.com/oslabs-beta/dockerlocal
