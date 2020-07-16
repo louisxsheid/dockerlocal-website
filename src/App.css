@@ -3,31 +3,6 @@
 .App {
   text-align: center;
 }
-/* 
-.css-selector {
-  background: linear-gradient(270deg, #33b5e5, #1e94df, #2847d2, #092b66);
-  background-size: 800% 800%;
-
-  -webkit-animation: AnimationName 11s ease infinite;
-  -moz-animation: AnimationName 11s ease infinite;
-  animation: AnimationName 11s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-} */
 
 .App-logo {
   height: 50vmin;
@@ -55,6 +30,8 @@
 
 .nav-wrap {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .dockerLocal {
@@ -64,12 +41,6 @@
   font-weight: bold;
   color: #33B5E5;
 }
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
 
 .info {
   width: 100%;
@@ -86,12 +57,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
   margin:0;
-  /* background: linear-gradient(318deg, #33b5e5, #1e94df, #2847d2, #092b66);
-  background-size: 800% 800%;
-
-  -webkit-animation: AnimationName 44s ease infinite;
-  -moz-animation: AnimationName 44s ease infinite;
-  animation: AnimationName 44s ease infinite; */
 }
 
 .App-link {
@@ -130,14 +95,4 @@
   text-align: center;
   margin: 2vh;
   height: 42.5vh;
-  /* width: 45vh; */
 }
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
