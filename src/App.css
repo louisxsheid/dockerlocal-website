@@ -1,38 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic&subset=latin,latin-ext');
+
 .App {
   text-align: center;
 }
+/* 
+.css-selector {
+  background: linear-gradient(270deg, #33b5e5, #1e94df, #2847d2, #092b66);
+  background-size: 800% 800%;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  -webkit-animation: AnimationName 11s ease infinite;
+  -moz-animation: AnimationName 11s ease infinite;
+  animation: AnimationName 11s ease infinite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+} */
+
+.App-logo {
+  height: 50vmin;
+  pointer-events: none;
+  margin:0;
+  padding: 0;
+}
+
+.logo-icon {
+  height: 8vh;
+  margin: 0;
+  padding: 0;
+}
+
+.dl-beta {
+  color: white;
+}
+
+/* .dl-beta {
+  justify-content: flex-end;
+} */
+
+.github-icon {
+  height: 8vh;
+  margin: 0;
+  padding-left: 1vh;
+  justify-content: end;
+}
+
+.nav-wrap {
+
+  display: flex;
+}
+
+.dockerLocal {
+  padding-top: 2vh;
+  font-family: 'Roboto';
+  font-size: 10vh;
+  font-weight: bold;
+  color: #33B5E5;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+} */
+
+.info {
+  width: 100%;
 }
 
 .App-header {
-  background-color: #282c34;
+  padding-bottom: 10vh;
+  background-color: black;
   min-height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin:0;
+  /* background: linear-gradient(318deg, #33b5e5, #1e94df, #2847d2, #092b66);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 44s ease infinite;
+  -moz-animation: AnimationName 44s ease infinite;
+  animation: AnimationName 44s ease infinite; */
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+.abt-us {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+.profile-pic {
+  width: 30vh;
+}
+
+.github-icon-profile {
+  height: 6vh;
+  margin: 0;
+  justify-content: end;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  padding-left: 35vh;
+  padding-right: 35vh;
+}
+.grid-item {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 2vh;
+  height: 45vh;
+  /* width: 45vh; */
+}
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
