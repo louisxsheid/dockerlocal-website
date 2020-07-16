@@ -1,5 +1,8 @@
 import React from 'react';
 import github from '../assets/githublogo.png'
+import louis from '../assets/louis.jpg'
+import tom from '../assets/tom.png'
+import vivian from '../assets/vivian.jpeg'
 
 export default class Team extends React.Component {
     render() {
@@ -8,7 +11,7 @@ export default class Team extends React.Component {
                 <h1 class='abt-us'>About Us</h1>
                 <div className="grid-container">
                     <div className="grid-item">
-                    <img className='profile-pic' src="https://media-exp1.licdn.com/dms/image/C5603AQEBQgCqW3RGRw/profile-displayphoto-shrink_400_400/0?e=1600300800&v=beta&t=HqweKzd7imfVcZ0KnN4XX55dhR9ahUpwKPt1IIB249I"/>
+                    <img className='profile-pic' src={louis}/>
                         <h4>Louis Xavier Sheid III</h4>
                         <a href='https://github.com/louisxsheid' target="_blank">
                             <img src={github} className='github-icon-profile' ></img>
@@ -22,7 +25,7 @@ export default class Team extends React.Component {
                         </a>
                     </div>
                     <div className="grid-item">
-                        <img className='profile-pic' src="https://12ax7web.s3.amazonaws.com/accounts/1/products/imported/Oh-Whale__SEPS-1000x1000.jpg"></img>
+                        <img className='profile-pic' src={tom}></img>
                         <h4>Tom Lutz</h4>
                         <a href='https://github.com/tlutz888' target="_blank">
                             <img src={github} className='github-icon-profile' ></img>
@@ -36,7 +39,7 @@ export default class Team extends React.Component {
                         </a>
                     </div>
                     <div className="grid-item">
-                        <img className='profile-pic' src="https://12ax7web.s3.amazonaws.com/accounts/1/products/imported/Oh-Whale__SEPS-1000x1000.jpg"></img>
+                        <img className='profile-pic' src={vivian}></img>
                         <h4>Vivian Cermeno</h4>
                         <a href='https://github.com/vcermeno' target="_blank">
                             <img src={github} className='github-icon-profile' ></img>

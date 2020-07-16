@@ -46,10 +46,6 @@
   color: white;
 }
 
-/* .dl-beta {
-  justify-content: flex-end;
-} */
-
 .github-icon {
   height: 8vh;
   margin: 0;
@@ -58,7 +54,6 @@
 }
 
 .nav-wrap {
-
   display: flex;
 }
 
@@ -84,7 +79,6 @@
   padding-bottom: 10vh;
   background-color: black;
   min-height: 100vh;
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -135,7 +129,7 @@
   font-size: 30px;
   text-align: center;
   margin: 2vh;
-  height: 45vh;
+  height: 42.5vh;
   /* width: 45vh; */
 }
 

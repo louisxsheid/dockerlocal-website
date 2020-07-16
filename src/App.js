@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="App">
       <Head />
-
       <header className='App-header'>
         <Body />
       </header>
