@@ -8,7 +8,7 @@ export default class Team extends React.Component {
   render() {
     return (
       <div classNameName='App'>
-        <div className='about'> <h1 class='abt-us'>About Us</h1></div>
+        <div className='about'> <h1 class='abt-us'>The Team</h1></div>
         <div className="grid-container">
           <div className="inner-container">
           <div className="grid-item">

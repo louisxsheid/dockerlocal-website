@@ -67,6 +67,41 @@
   background-color: black;
   color: white;
   margin: 0;
+  padding-top: 10vh;
+}
+
+.info {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+.info-wrap{
+  background-color: black;
+  color:white;
+  text-align: center
+}
+
+.info-title {
+  padding-top: 5vh;
+}
+
+.divider {
+  padding: 2vh;
+}
+
+.addReposPic {
+  width: 100%;
+  max-width: 40em;
+}
+
+.info-p {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  max-width: 40em;
 }
 
 .profile-pic {

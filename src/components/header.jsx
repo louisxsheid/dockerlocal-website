@@ -10,7 +10,7 @@ export default class Body extends React.Component {
             <img src={logo} className="App-logo" />
           </a>
           <h1 className='dockerLocal'>DockerLocal</h1>
-          <p class='info'>locally test your containerized microservices</p>
+          <p className='info'>locally test your containerized microservices</p>
         </header>
       </div>
     );
