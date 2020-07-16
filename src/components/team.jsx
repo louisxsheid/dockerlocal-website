@@ -8,8 +8,9 @@ export default class Team extends React.Component {
   render() {
     return (
       <div classNameName='App'>
-        <h1 class='abt-us'>About Us</h1>
+        <div className='about'> <h1 class='abt-us'>About Us</h1></div>
         <div className="grid-container">
+          <div className="inner-container">
           <div className="grid-item">
             <img className='profile-pic' src={louis} />
             <h4>Louis Xavier Sheid III</h4>
@@ -45,8 +46,10 @@ export default class Team extends React.Component {
               <img src={github} className='github-icon-profile' ></img>
             </a>
           </div>
+          </div>
         </div>
-      </div>
+        </div>
+      
     );
   }
 }

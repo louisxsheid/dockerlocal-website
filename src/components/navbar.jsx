@@ -17,12 +17,12 @@ export default class Head extends React.Component {
             </div>
 
             <div className='dl-beta'>
-              download beta
+            ↓ beta
             <a href='https://github.com/oslabs-beta/dockerlocal' target="_blank">
                 <img src={github} className='github-icon'></img>
               </a>
             </div>
-            
+
           </Navbar.Brand>
         </Navbar>
       </div>

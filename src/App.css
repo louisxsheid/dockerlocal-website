@@ -37,7 +37,7 @@
 .dockerLocal {
   padding-top: 2vh;
   font-family: 'Roboto';
-  font-size: 10vh;
+  font-size: 3em;
   font-weight: bold;
   color: #33B5E5;
 }
@@ -80,12 +80,19 @@
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
   background-color: black;
-  padding-left: 35vh;
-  padding-right: 35vh;
 }
+
+.inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+}
+
 .grid-item {
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.8);
