@@ -10,11 +10,17 @@ export default class Body extends React.Component {
   render() {
     return (
         <div className='info-wrap'>
+          <div className='divider'></div>
+          <div className='divider'></div>
+          <div className='divider'></div>
+          <div className='divider'></div>
           <h1 className='info'>What is DockerLocal?</h1>
+          <div className='divider'></div>
           <div className='divider'></div>
           <h4 className='info-p'>DockerLocal is a lightweight and easy to set up tool that saves time in your development workflow, removing the need for manual cloning and docker-compose setup.
           Developers can choose the github repositories associated with a project to clone the latest version of each repository. DockerLocal then creates a Docker Compose .yml file with only the microservices you’re not currently working on locally.  
           Test your containerized services faster and with less hassle.</h4>
+          <div className='divider'></div>
           <div className='divider'></div>
           <div className='divider'></div>
           <div className='divider'></div>
